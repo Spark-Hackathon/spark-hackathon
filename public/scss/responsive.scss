@@ -1,0 +1,81 @@
+/*
+	Responsive Styles - Spark Hackathon
+	(c) 2019, Spark
+	Licensed under CC BY-NC-SA 4.0
+*/
+
+
+@media only screen and (max-width: 1005px) {
+	nav {
+		#links {
+			display: none;
+		}
+
+		#links.visible {
+			display: block;
+			position: absolute;
+			top: calc(#{$unit-max} * 2);
+			left: 0;
+			right: 0;
+			text-align: center;
+
+			li {
+				display: block;
+				border-bottom: $unit-s solid $slate;
+			}
+		}
+
+		a#menuTrigger {
+			display: block !important;
+		}
+	}
+}
+
+@media only screen and (max-width: 820px) {
+	.wrapper {
+		max-width: 90%;
+	}
+
+	.grid_layout {
+		display: block !important;
+		
+		img {
+			margin-bottom: $unit-xl;
+		}
+
+		&.isFlipped .text:first-child {
+			display: none !important;
+		}
+
+		&.isFlipped .text:last-child {
+			display: block !important;
+		}
+	}
+
+	input[type="submit"] {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		-o-appearance: none;
+		appearance: none;
+	}
+
+	select {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		-o-appearance: none;
+		appearance: none;
+	}
+
+	#cta {
+		text-align: left;
+	}
+}
+
+@media only screen and (max-width: 665px) {
+	a.btn {
+		display: block;
+		width: 100%;
+		margin-bottom: $unit-l;
+		text-align: center;
+	}
+}

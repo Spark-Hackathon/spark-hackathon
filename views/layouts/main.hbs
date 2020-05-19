@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="UTF-8">
+	<title>{{page.title}}</title>
+
+	<link rel="icon" href="/favicons/favicon.ico" />
+	<link rel="stylesheet" href="/css/zap.css" />
+</head>
+<body>
+	<div id="app">
+		{{> navigation}}
+		{{> header}}
+
+		{{{ body }}}
+
+		{{> footer}}
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/countdown.js"></script>
+	<script type="text/javascript" src="/js/pixel.js"></script>
+	<script type="text/javascript" src="/js/dark.js"></script>
+	<script type="text/javascript" src="/js/responsive.js"></script>
+</body>
+</html>

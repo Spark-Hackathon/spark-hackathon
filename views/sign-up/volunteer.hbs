@@ -1,0 +1,145 @@
+<form method="POST" action="https://api.sparkhackathon.com/hackathon/sign-up/participant">
+    <label for="first_name">
+        <span>*</span> First Name
+    </label>
+    <input type="text" name="first_name" placeholder="Your answer" required="required" />
+    
+    <label for="last_name">
+        <span>*</span> Last Name
+    </label>
+    <input type="text" name="last_name" placeholder="Your answer" required="required" />
+    
+    <label for="email">
+        <span>*</span> Email Address
+    </label>
+    <input type="email" name="email" placeholder="Your answer" required="required" />
+    
+    <label for="date_of_birth">
+        <span>*</span> Date of Birth
+    </label>
+    <input type="date" name="date_of_birth" placeholder="MM/DD/YYYY" required="required" />
+
+    <label for="school">
+        <span>*</span> Current School
+    </label>
+    <select name="school" required="required">
+        <option value="Albemarle High School">Albemarle High School</option>
+        <option value="Blue Ridge Governor's School">Blue Ridge Governor&apos;s School</option>
+        <option value="Charlottesville High School">Charlottesville High School</option>
+        <option value="Fluvanna High School">Fluvanna High School</option>
+        <option value="Goochland High School">Goochland High School</option>
+        <option value="Louisa High School">Louisa High School</option>
+        <option value="Madison High School">Madison High School</option>
+        <option value="Miller High School">Miller High School</option>
+        <option value="Monticello High School">Monticello High School</option>
+        <option value="Murray High School">Murray High School</option>
+        <option value="Nelson High School">Nelson High School</option>
+        <option value="Orange High School">Orange High School</option>
+        <option value="St. Anne's-Belfield">St. Anne&apos;s-Belfield</option>
+        <option value="The Covenant High School">Covenant</option>
+        <option value="Western Albemarle High School">Western Albemarle High School</option>
+        <option value="William Monroe High School">William Monroe High School</option>
+        <option value="Homeschooled">Homeschooled</option>
+        <option value="School Not Listed">School Not Listed</option>
+    </select>
+    
+    <label for="grade">
+        <span>*</span> Current Grade
+    </label>
+    <select name="grade" required="required">
+        <option value="Freshman">Freshman</option>
+        <option value="Sophomore">Sophomore</option>
+        <option value="Junior">Junior</option>
+        <option value="Senior">Senior</option>
+    </select>
+        
+    <label for="sex">
+        <span>*</span> Sex
+    </label>
+    <select name="sex" required="required">
+        <option value="Female">Female</option>
+        <option value="Male">Male</option>
+        <option value="Decline to State">Decline to State</option>
+    </select>
+
+    <label for="experience">
+        <span>*</span> Which best describes you?
+    </label>
+    <select name="experience" required="required">
+        <option value="Designer">I am a designer &amp; enjoy building things</option>
+        <option value="Artist">I am an artist &amp; enjoy the creative process</option>
+        <option value="Researcher">I am a researcher &amp; enjoy learning about new things</option>
+        <option value="Writer">I am a writer &amp; enjoy communicating ideas</option>
+        <option value="Engineer">I am an engineer enjoy solving problems</option>
+        <option value="Leader">I am a leader &amp; enjoy making a plan</option>
+        <option value="Oddball">None of these really fit me</option>
+    </select>
+
+    <label for="race">
+        <span>*</span> Race/Ethnicity
+    </label>
+    <select name="race" required="required">
+        <option value="Asian/Pacific Islander">Asian/Pacific Islander</option>
+        <option value="Black/African American">Black/African American</option>
+        <option value="Hispanic/Latino">Hispanic/Latino</option>
+        <option value="Native American/American Indian">Native American/American Indian</option>
+        <option value="White/Caucasian">White/Caucasian</option>
+        <option value="Decline to State">Decline to State</option>
+    </select>
+    
+    <label for="hopes">
+        <span>*</span> Why are you interested in participating in the Hackathon? What do you want to gain from it?
+    </label>
+    <textarea name="hopes" rows="24" placeholder="Your answer" required="required"></textarea>
+
+    <label for="t_shirt_size">
+        <span>*</span> T-Shirt Size
+    </label>
+    <select name="t_shirt_size" required="required">
+        <option value="Small">Small</option>
+        <option value="Medium">Medium</option>
+        <option value="Large">Large</option>
+        <option value="X-Large">X-Large</option>
+    </select>
+
+    <label for="borrow_laptop">
+        <span>*</span> Do you need to borrow a laptop?
+    </label>
+    <select name="borrow_laptop" required="required">
+        <option value="No">No, I&apos;m bringing my own</option>
+        <option value="Yes">Yes, please!</option>
+    </select>
+                        
+    <label for="adult_name">
+        <span>*</span> Parent/Guardian Full Name
+    </label>
+    <input type="text" name="adult_name" placeholder="Your answer" required="required" />
+
+    <label for="adult_email">
+        <span>*</span> Parent/Guardian Email Address
+    </label>
+    <input type="email" name="adult_email" placeholder="Your answer" required="required" />
+
+    <label for="adult_phone">
+        <span>*</span> Parent/Guardian Phone Number
+    </label>
+    <input type="tel" name="adult_phone" placeholder="Your answer" required="required"/>
+
+    <label for="participated_before">
+        <span>*</span> Have you participated before?
+    </label>
+    <select name="participated_before" required="required">
+        <option value="No">No, this is my first time!</option>
+        <option value="Yes">Yes, but I loved it so much!</option>
+    </select>
+                            
+    <div classname="hidden">
+        <label for="refer_name">If you&apos;d like, you can refer a friend!</label>
+        <input type="text" name="refer_name" placeholder="Your answer" />
+
+        <label for="refer_email">Your friend&apos;s email address (if you answered above)</label>
+        <input type="email" name="refer_email" placeholder="Your answer" />
+    </div>
+
+    <input type="submit" value="Submit Application" />
+</form>

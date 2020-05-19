@@ -1,0 +1,63 @@
+/*
+	Variables - Spark Hackathon
+	(c) 2019, Spark
+	Licensed under CC BY-NC-SA 4.0
+*/
+
+
+// :root {
+// 	font: "Avenir", "Helvetica Neue", sans-serif;
+
+// 	yellow-rgb: rgb(255, 192, 0);
+// 	yellow-one: rgba(255, 192, 0, 0.25);
+// 	yellow-two: rgba(255, 192, 0, 0.5);
+// 	yellow-three: rgba(255, 192, 0, 0.75);
+
+// 	black-rgb: rgb(16, 16, 16);
+// 	black-one: rgba(16, 16, 16, 0.25);
+// 	black-two: rgba(16, 16, 16, 0.5);
+// 	black-three: rgba(16, 16, 16, 0.75);
+
+// 	white: rgba(255, 255, 255, 1);
+// 	slate: rgba(218, 220, 224, 0.25);
+
+// 	unit-s: 4px;
+// 	unit-n: 8px;
+// 	unit-l: 16px;
+// 	unit-xl: 24px;
+// 	unit-xxl: 32px;
+// 	unit-max: 40px;
+
+// 	type-n: 18px;
+// 	type-m: 24px;
+// 	type-l: 32px;
+// 	type-xl: 56px;
+// }
+
+$font: "Avenir", "Helvetica Neue", sans-serif;
+
+$yellow-rgb: rgb(255, 192, 0);
+$black-rgb: rgb(16, 16, 16);
+
+$yellow-one: rgba($yellow-rgb, 0.25);
+$yellow-two: rgba($yellow-rgb, 0.5);
+$yellow-three: rgba($yellow-rgb, 0.75);
+
+$white: rgba(255, 255, 255, 1);
+$slate: rgba(218, 220, 224, 0.25);
+
+$black-one: rgba($black-rgb, 0.25);
+$black-two: rgba($black-rgb, 0.5);
+$black-three: rgba($black-rgb, 0.75);
+
+$unit-s: 4px;
+$unit-n: 8px;
+$unit-l: 16px;
+$unit-xl: 24px;
+$unit-xxl: 32px;
+$unit-max: 40px;
+
+$type-n: 18px;
+$type-m: 24px;
+$type-l: 32px;
+$type-xl: 56px;

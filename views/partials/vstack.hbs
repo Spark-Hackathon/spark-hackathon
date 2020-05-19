@@ -1,0 +1,59 @@
+{{#each page.vstacks}}
+	<section class="vstack">
+		<div class="wrapper">
+			<h6>{{this.title}}</h6>
+
+			{{#if this.description}}
+				<p>{{this.description}}</p>
+			{{/if}}
+
+			{{#if this.nested_list}}
+				<div class="nested_list">
+					{{#each this.nested_list}}
+						<div>
+							<p>{{this.title}}</p>
+
+							<ol>
+								{{#each this.list}}
+									<li>{{this}}</li>
+								{{/each}}
+							</ol>
+						</div>
+					{{/each}}
+				</div>
+			{{/if}}
+
+			{{#if this.list}}
+				<div class="list">
+					<ol>
+						{{#each this.list}}
+							<li>{{this}}</li>
+						{{/each}}
+					</ol>
+				</div>
+			{{/if}}
+
+			{{#if this.links}}
+				<div class="links">
+					{{#each this.links}}
+						<a href="{{this.to}}" target="_blank">{{this.title}}</a>
+					{{/each}}
+				</div>
+			{{/if}}
+
+			{{#if this.img_src}}
+				<img src="{{this.img_src}}" alt="{{this.img_alt}}">
+			{{/if}}
+
+			{{#if this.images}}
+				{{#each this.images}}
+					<div class="images">
+						<a href="{{this.link_to}}" target="_blank">
+							<img src="{{this.img_src}}" alt="{{this.img_alt}}">
+						</a>
+					</div>
+				{{/each}}
+			{{/if}}
+		</div>
+	</section>
+{{/each}}

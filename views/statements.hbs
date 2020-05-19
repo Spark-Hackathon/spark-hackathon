@@ -1,0 +1,11 @@
+<section class="statements">
+	<div class="wrapper">
+		<ol>
+			{{#each page.problem_statements}}
+				<li>
+					<a href="{{this.linkTo}}" style="text-decoration: underline;">{{this.title}}</a> - {{this.question}}
+				</li>
+			{{/each}}
+		</ol>
+	</div>
+</section>

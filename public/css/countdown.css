@@ -1,0 +1,27 @@
+/*
+	Countdown - Stylesheet
+*/
+
+
+body {
+	padding: 32px 0;
+	text-align: center;
+	font-family: monospace;
+}
+
+h1 {
+	font-size: 65pt;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 32px;
+	margin-bottom: 32px;
+	color: rgba(16, 16, 16, 0.5);
+	font-weight: lighter;
+}
+
+div.timer {
+	height: 100vh;
+	padding-top: calc((100vh / 2) - 96px);
+}

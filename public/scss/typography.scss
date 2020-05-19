@@ -1,0 +1,57 @@
+/*
+	Typography Styles - Spark Hackathon
+	(c) 2019, Spark
+	Licensed under CC BY-NC-SA 4.0
+*/
+
+@import "variables.scss";
+
+
+h1 {
+	font-size: $type-xl;
+	font-weight: 700;
+	line-height: calc(#{$type-xl} + 8px);
+}
+
+h2 {
+	font-size: $type-l;
+	font-weight: normal;
+	line-height: calc(#{$type-l} + 12px);
+}
+
+h6 {
+	font-size: $type-n;
+	font-weight: bold;
+	line-height: calc(#{$type-n} + 8px);
+	text-transform: uppercase;
+}
+
+p, a, ol, ul {
+	font-size: $type-n;
+	line-height: calc(#{$type-n} + 8px);
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+	color: $black-rgb;
+	font-weight: 500;
+
+	&:hover {
+		color: $yellow-rgb;
+		border-bottom: $unit-s solid $yellow-rgb;
+	}
+}
+
+ol, ul {
+	li {
+		list-style-type: circle;
+		margin-bottom: $unit-n;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	margin-bottom: $unit-xl;
+}

@@ -1,0 +1,19 @@
+<section class="header">
+	<div class="wrapper">
+		<header>
+			<h1>{{page.header.h1}}</h1>
+			<h2>{{page.header.h2}}</h2>
+
+			{{!-- {{#if page.header.includeCTABtns}}
+				<a href="/sign-up/participant" class="btn btn_primary" id="go"> Join the Hackathon!</a>
+				<a href="/sign-up/volunteer" class="btn btn_secondary"> Become a Volunteer</a>
+			{{/if}} --}}
+
+			{{#if page.header.includeCTABtns}}
+				<a href="https://forms.gle/o31FmEDBH1c7PAWy5" target="_blank" id="go" class="btn btn_primary">Post-Survey Form</a>
+				<a href="http://summerspark.stab.org/" class="btn btn_secondary" target="_blank">Apply for Summer Spark!</a>
+				{{!-- <a href="/statements" class="btn btn_secondary">Problem Statements</a> --}}
+			{{/if}}
+		</header>
+	</div>
+</section>

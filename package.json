@@ -1,0 +1,24 @@
+{
+  "name": "spark-hackathon-website",
+  "version": "1.0.0",
+  "description": "The official static website for the Spark Hackathon",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spark-Hackathon/spark-hackathon.git"
+  },
+  "author": "Spark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Spark-Hackathon/spark-hackathon/issues"
+  },
+  "homepage": "https://github.com/Spark-Hackathon/spark-hackathon#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0"
+  }
+}
